@@ -11,6 +11,30 @@
           h3 2019 1분기, 서울
     div(class="main")
       div(
+        class="section section-description"
+      )
+        div(class="container")
+          div(class="row")
+            h3 천년을 위한 청년들의 지식 공유 컨퍼런스
+          div(class="row")
+            div(class="typography-line")
+              span 행사 개요
+              | Uni-Con(University Conference)는 대학생 개발자/비개발자가
+              | 함께 참가하는 지식 공유 컨퍼런스입니다.
+          div(class="row")
+            div(class="typography-line")
+              span 코드가 있는 세션
+              | 개발자 친구들을 위해 코드가 포함한 내용을 공유합니다.
+              br
+              | 웹, 블록체인, AI, 보안 등 코딩에 대한 이해가 필요한 세션입니다.
+          div(class="row")
+            div(class="typography-line")
+              span 코드가 없는 세션
+              | 비개발자도 가벼운 마음으로 들을 수 있는 코드가 없는 세션입니다.
+              br
+              | 커뮤니티와 네트워킹, 커뮤니케이션, 경험담 등
+              | 다양한 주제에 대해서 공유합니다.
+      div(
         class="section scection-subscribe"
         style="background-image: url('img/bg11.jpg'); background-size: cover; background-position: top center; min-height: 200px;"
       )
