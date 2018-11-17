@@ -26,5 +26,6 @@ export default {
       }
     ]
   },
-  srcDir: 'src/'
+  srcDir: 'src/',
+  plugins: ['@/plugins/now-ui-kit']
 };
