@@ -131,7 +131,6 @@ export default {
     [Radio.name]: Radio,
     [FormGroupInput.name]: FormGroupInput,
     [Switch.name]: Switch,
-    [Option.name]: Option,
     Slider
   },
   data() {
