@@ -7,7 +7,8 @@
 </template>
 <script>
 export default {
-  name: 'starter'
+  name: 'starter',
+  layout: 'template'
 };
 </script>
 <style>

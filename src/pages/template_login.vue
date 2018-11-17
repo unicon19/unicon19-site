@@ -55,7 +55,8 @@ export default {
     MainFooter,
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput
-  }
+  },
+  layout: 'template'
 };
 </script>
 <style>

@@ -95,7 +95,8 @@ export default {
     SignupForm,
     ExamplesSection,
     DownloadSection
-  }
+  },
+  layout: 'template'
 };
 </script>
 <style>

@@ -118,7 +118,8 @@ export default {
   components: {
     Tabs,
     TabPane
-  }
+  },
+  layout: 'template'
 };
 </script>
 <style>

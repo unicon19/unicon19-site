@@ -187,7 +187,8 @@ export default {
         message: ''
       }
     };
-  }
+  },
+  layout: 'template'
 };
 </script>
 <style>
