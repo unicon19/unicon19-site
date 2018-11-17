@@ -3,7 +3,7 @@ div
   div(class="page-header page-header-small clear-filter" filter-color="orange")
     parallax(
       class="page-header-image"
-      style="background-image:url('img/bg6.jpg')"
+      style="background-image:url('/img/bg6.jpg')"
     )
     div(class="content-center")
       div(class="container")

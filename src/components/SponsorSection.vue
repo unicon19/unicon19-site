@@ -4,7 +4,7 @@ div(class="section section-sponsor")
     h3(class="title") 스폰서
     div(class="row")
       div(class="col-md-12")
-        img(src="img/sponsor_kmu.jpg")
+        img(src="/img/sponsor_kmu.jpg")
     div(class="row")
       n-button(class="btn-sponsor" type="primary" size="lg") 스폰서 되기
 </template>
