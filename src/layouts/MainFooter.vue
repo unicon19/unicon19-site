@@ -3,7 +3,8 @@
     div(class="container")
       nav
         ul
-          li 유니콘 준비위원회
+          li
+            a(href="/staff") 유니콘 준비위원회
       div(class="copyright")
         | &copy; 2018, 유니콘 준비위원회.
         | powered by

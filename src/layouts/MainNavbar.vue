@@ -6,7 +6,8 @@ navbar(
     menu-classes="ml-auto"
   )
   template(slot-socpe="{toggle, isToggled}")
-    span UniCon
+    span
+      a(href="/") UniCon
 </template>
 
 <script>
