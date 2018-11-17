@@ -7,10 +7,10 @@
 </template>
 
 <script>
-import MainNavbar from './MainNavbar.vue';
-import MainFooter from './MainFooter.vue';
+import TemplateNavbar from './TemplateNavbar.vue';
+import TemplateFooter from './TemplateFooter.vue';
 
 export default {
-  components: { MainNavbar, MainFooter }
+  components: { TemplateNavbar, TemplateFooter }
 };
 </script>
