@@ -9,6 +9,7 @@
           img(class="n-logo", src="img/now-logo.png")
           h1 UNIVERSITY CONFERENCE
           h3 2019 1분기, 서울
+          h6 자세한 일정, 장소는 추후 공지합니다.
     div(class="main")
       div(
         class="section section-description"
@@ -34,6 +35,9 @@
               br
               | 커뮤니티와 네트워킹, 커뮤니케이션, 경험담 등
               | 다양한 주제에 대해서 공유합니다.
+          div(class="row")
+            n-button(class="btn-proposal" type="primary", size="lg") 발표 제안하기
+
       div(
         class="section scection-subscribe"
         style="background-image: url('img/bg11.jpg'); background-size: cover; background-position: top center; min-height: 200px;"
@@ -52,6 +56,8 @@
           div(class="row")
             div(class="col-md-12")
               img(src="img/sponsor_kmu.jpg")
+          div(class="row")
+            n-button(class="btn-sponsor" type="primary" size="lg") 스폰서 되기
 </template>
 
 <script>
@@ -98,6 +104,16 @@ img {
 }
 
 .section-sponsor img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-sponsor {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-proposal {
   margin-left: auto;
   margin-right: auto;
 }
