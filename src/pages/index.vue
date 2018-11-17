@@ -100,11 +100,6 @@ export default {
   margin-right: auto;
 }
 
-.btn-sponsor {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .btn-proposal {
   margin-left: auto;
   margin-right: auto;
