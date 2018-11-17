@@ -24,8 +24,20 @@ export default {
         rel: 'stylesheet',
         href: 'https://use.fontawesome.com/releases/v5.0.6/css/all.css'
       }
-    ]
+    ],
+    bodyAttrs: {
+      class: 'sidebar-collapse'
+    }
   },
   srcDir: 'src/',
-  plugins: ['@/plugins/now-ui-kit']
+  plugins: ['@/plugins/now-ui-kit'],
+  router: {
+    scrollBehavior: to => {
+      if (to.hash) {
+        return { selector: to.hash };
+      } else {
+        return { x: 0, y: 0 };
+      }
+    }
+  }
 };

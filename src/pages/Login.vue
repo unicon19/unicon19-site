@@ -46,7 +46,7 @@
 </template>
 <script>
 import { Card, Button, FormGroupInput } from '@/components';
-import MainFooter from '@/layout/MainFooter';
+import MainFooter from '@/layouts/MainFooter';
 export default {
   name: 'login-page',
   bodyClass: 'login-page',
