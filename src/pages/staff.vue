@@ -34,12 +34,14 @@ div
                 td 진유림
                 td 최희재
                 td 허준희
+    sponsor-section
 
   
 </template>
 
 <script>
 import { Card, Parallax, FormGroupInput, Button } from '@/components';
+import SponsorSection from '@/components/SponsorSection.vue';
 
 export default {
   name: 'staff',
@@ -48,7 +50,8 @@ export default {
     Parallax,
     [FormGroupInput.name]: FormGroupInput,
     [Button.name]: Button,
-    Card
+    Card,
+    SponsorSection
   }
 }
 </script>

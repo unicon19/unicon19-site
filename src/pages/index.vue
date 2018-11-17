@@ -37,7 +37,6 @@
               | 다양한 주제에 대해서 공유합니다.
           div(class="row")
             n-button(class="btn-proposal" type="primary", size="lg") 발표 제안하기
-
       div(
         class="section scection-subscribe"
         style="background-image: url('img/bg11.jpg'); background-size: cover; background-position: top center; min-height: 200px;"
@@ -50,18 +49,13 @@
                 fg-input(class="input-subscribe no-border", placeholder="email")
                 n-button(class="btn-subscribe") 구독하기
               div 컨퍼런스 일정, 장소, 시간표등을 보내드립니다.
-      div(class="section section-sponsor")
-        div(class="container text-center")
-          h3(class="title") 스폰서
-          div(class="row")
-            div(class="col-md-12")
-              img(src="img/sponsor_kmu.jpg")
-          div(class="row")
-            n-button(class="btn-sponsor" type="primary" size="lg") 스폰서 되기
+      sponsor-section
+
 </template>
 
 <script>
 import { Card, Parallax, FormGroupInput, Button } from '@/components';
+import SponsorSection from '@/components/SponsorSection.vue'
 
 export default {
   name: 'index',
@@ -70,15 +64,13 @@ export default {
     Parallax,
     [FormGroupInput.name]: FormGroupInput,
     [Button.name]: Button,
-    Card
+    Card,
+    SponsorSection
   }
 }
 </script>
 
 <style lang="scss">
-
-img {
-}
 
 .card-subscribe {
   margin: 0 auto;
