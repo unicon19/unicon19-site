@@ -20,20 +20,21 @@ div
         div.row
           div.col-md-12
             table.table-staff
-              tr
-                td 고유림
-                td 김지원
-                td 노종원
-                td 문성욱
-                td 박영조
-                td 서현석
-              tr
-                td 송재학
-                td 신수철
-                td 장순호
-                td 진유림
-                td 최희재
-                td 허준희
+              tbody
+                tr
+                  td 고유림
+                  td 김지원
+                  td 노종원
+                  td 문성욱
+                  td 박영조
+                  td 서현석
+                tr
+                  td 송재학
+                  td 신수철
+                  td 장순호
+                  td 진유림
+                  td 최희재
+                  td 허준희
     sponsor-section
 
   
