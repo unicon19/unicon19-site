@@ -12,5 +12,5 @@ import MainFooter from './MainFooter.vue';
 
 export default {
   components: { MainNavbar, MainFooter }
-}
+};
 </script>
