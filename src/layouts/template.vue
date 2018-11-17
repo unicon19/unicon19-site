@@ -1,8 +1,8 @@
 <template>
   <div>
-    <main-navbar :color-on-scroll="400"/>
+    <template-navbar :color-on-scroll="400"/>
     <nuxt/>
-    <main-footer background-color="black"/>
+    <template-footer background-color="black"/>
   </div>
 </template>
 
