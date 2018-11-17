@@ -6,12 +6,12 @@
     </div>
 </template>
 <script>
-  export default {
-    name: 'starter'
-  };
+export default {
+  name: 'starter'
+};
 </script>
 <style>
-    .starter-page {
-        min-height: calc(100vh - 95px);
-    }
+.starter-page {
+  min-height: calc(100vh - 95px);
+}
 </style>
