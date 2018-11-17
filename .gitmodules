@@ -1,0 +1,3 @@
+[submodule "dist"]
+	path = dist
+	url = git@github.com:unicon19/unicon19.github.io.git
