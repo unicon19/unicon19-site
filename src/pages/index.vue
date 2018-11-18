@@ -45,13 +45,18 @@
         class="section scection-subscribe"
         style="background-image: url('img/bg11.jpg'); background-size: cover; background-position: top center; min-height: 200px;"
       )
-        div(class="container")
-          div(class="row")
-            div(class="card-subscribe text-center")
-              h3(class="card-title title-up") FOREVER YOUNG, WAVES LIKE
-              div(class="div-subscribe")
-                fg-input(class="input-subscribe no-border", placeholder="email")
-                n-button(class="btn-subscribe") 구독하기
+        div.container
+          div.row
+            div.col-md-12
+              div.card-subscribe.text-center
+                h3.card-title.title-up FOREVER YOUNG,
+                  br
+                  |WAVES LIKE
+                div.div-subscribe
+                  fg-input(class="input-subscribe no-border", placeholder="email")
+                  n-button(class="btn-subscribe") 구독하기
+          div.row
+            div.col-md-12.text-center
               div 컨퍼런스 일정, 장소, 시간표등을 보내드립니다.
       sponsor-section
 
@@ -78,6 +83,7 @@ export default {
 
 .card-subscribe {
   margin: 0 auto;
+  max-width: 350px;
 }
 .div-subscribe {
   vertical-align: middle;
@@ -87,7 +93,7 @@ export default {
 .input-subscribe {
   float: left;
   margin: 0px 10px 0px 0px;
-  width: 280px;
+  width: 240px;
 }
 
 .btn-subscribe {
