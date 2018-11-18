@@ -14,27 +14,31 @@
       div(
         class="section section-description"
       )
-        div(class="container")
+        div.container.text-center
           div(class="row")
-            h3 청년들을 위한 청년들의 지식 공유 컨퍼런스
+            div.col-md-12
+              h3 청년들을 위한 청년들의 지식 공유 컨퍼런스
           div(class="row")
-            div(class="typography-line")
-              span 행사 개요
-              | Uni-Con(University Conference)는 대학생 개발자/비개발자가
-              | 함께 참가하는 지식 공유 컨퍼런스입니다.
+            div.col-md-12
+              h5 행사 개요
+              span
+                | Uni-Con(University Conference)는 대학생 개발자/비개발자가
+                | 함께 참가하는 지식 공유 컨퍼런스입니다.
           div(class="row")
-            div(class="typography-line")
+            div.col-md-12
+              h5 코드가 있는 세션
               span 코드가 있는 세션
-              | 개발자 친구들을 위해 코드가 포함한 내용을 공유합니다.
-              br
-              | 웹, 블록체인, AI, 보안 등 코딩에 대한 이해가 필요한 세션입니다.
+                | 개발자 친구들을 위해 코드가 포함한 내용을 공유합니다.
+                br
+                | 웹, 블록체인, AI, 보안 등 코딩에 대한 이해가 필요한 세션입니다.
           div(class="row")
-            div(class="typography-line")
-              span 코드가 없는 세션
-              | 비개발자도 가벼운 마음으로 들을 수 있는 코드가 없는 세션입니다.
-              br
-              | 커뮤니티와 네트워킹, 커뮤니케이션, 경험담 등
-              | 다양한 주제에 대해서 공유합니다.
+            div.col-md-12
+              h5 코드가 없는 세션
+              span
+                | 비개발자도 가벼운 마음으로 들을 수 있는 코드가 없는 세션입니다.
+                br
+                | 커뮤니티와 네트워킹, 커뮤니케이션, 경험담 등
+                | 다양한 주제에 대해서 공유합니다.
           div(class="row")
             n-button(class="btn-proposal" type="primary", size="lg") 발표 제안하기
       div(
@@ -83,7 +87,7 @@ export default {
 .input-subscribe {
   float: left;
   margin: 0px 10px 0px 0px;
-  width: 300px;
+  width: 280px;
 }
 
 .btn-subscribe {
@@ -101,8 +105,13 @@ export default {
 }
 
 .btn-proposal {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto auto auto;
+}
+
+.section-description {
+  h5 {
+    margin: 20px 0px 10px 0px;
+  }
 }
 </style>
 
