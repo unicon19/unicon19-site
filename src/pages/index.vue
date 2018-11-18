@@ -16,7 +16,7 @@
       )
         div(class="container")
           div(class="row")
-            h3 천년을 위한 청년들의 지식 공유 컨퍼런스
+            h3 청년들을 위한 청년들의 지식 공유 컨퍼런스
           div(class="row")
             div(class="typography-line")
               span 행사 개요
